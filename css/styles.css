@@ -1,12 +1,12 @@
-* {
-    text-decoration: none;
+/* * {
+    text-decoration: none; */
 }
-.container {
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
-}
+} */
 
-.logo {
+/* .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -17,9 +17,9 @@
 
 .logo-color {
     color:#2196F3;
-}
+} */
 
-.visualy-hidden {
+/* .visualy-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -30,17 +30,17 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;    
-}
+} */
 
 /* __HEADER__ */
 
 
-.header {
+/* .header {
     padding: 25px 0;
     border-bottom: 1px solid #ECECEC;
-}
+} */
 
-.underline {
+/* .underline {
     position: relative;
 }
 
@@ -53,57 +53,57 @@
     bottom: -31px;
     background-color: #2196F3;
     border-radius: 4px;
-}
+} */
 
-.navigation {
+/* .header-navigation {
     display: flex;
     align-items: center;
-}
+} */
 
- .header .container {
+ /* .header .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 }
 
-.navigation-menu  {
+/* .header-navigation-menu  {
     display:flex;
     justify-items: center;
-    text-decoration: none;
+    text-decoration: none; */
 }
 
-.navigation-menu-item {
+/* .header__menu-item {
     margin-left: 50px;
 }
 
-.navigation-menu-link {
+.header__menu-link {
     font-family: 'Roboto', sans-serif; 
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: #212121;
-}
+} */
 
-.navigation-menu-link:hover {
+/* .header__menu-link:hover {
     color: #2196F3;
-}
+} */
 
-.contacts {
+/* .header-contacts {
     display: flex;
     align-items: center;   
 }
 
-.contacts-item {
+.header-contacts-item {
     display: flex ;
     align-items: center;
-}
+} */
 
-.contacts-item:last-child {
+/* .header-contacts-item:last-child {
     margin-left: 30px;
-}
+} */
 
-.contacts-link {
+/* .header__contacts-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -113,16 +113,16 @@
     transition: 0.4s;
 }
 
-.contacts-link {
+.header__contacts-link {
     display: flex;
     text-align: center;
-}
+} */
 
-.contacts-link:hover {
+/* .header-contacts-link:hover {
     color: #2196F3
-}
+} */
 
-.contacts-icon:hover
+.header-contacts-icon:hover
 .active {
     color: #2196F3;
 }
