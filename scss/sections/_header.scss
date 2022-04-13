@@ -62,7 +62,7 @@
         }
     }
     
-    .&__contacts-link {
+    &__contacts-link {
         font-weight: 500;
         font-size: 14px;
         letter-spacing: 0.02em;
@@ -71,7 +71,7 @@
         transition: 0.4s;
     }
     
-    .&__contacts-link {
+    &__contacts-link {
         display: flex;
         text-align: center;
 
@@ -80,6 +80,17 @@
         }
     }
     
+    &__contacts-icon {
+        width: 16px;
+        height: 16px;
+        fill: #757575;
+        transition: 0.4s;
+        margin: 0 10px;
+
+        &:hover {
+            fill: #2196F3;
+        }
+    }   
     
     
 }
