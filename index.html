@@ -19,7 +19,7 @@
             <nav class="header__navigation">   
                 <a href="./index.html" class="logo"><span class="logo__colored">Web</span>Studio </a> 
                 <ul class="header__menu">
-                    <li class="header__menu-item underline"><a href="./index.html" class="header__menu-link active">Студия</a> </li>
+                    <li class="header__menu-item underline"><a href="./index.html" class="header__menu-link header_active">Студия</a> </li>
                     <li class="header__menu-item"><a href="./portfolio.html" class="header__menu-link">Портфолио</a> </li>
                     <li class="header__menu-item"><a href="/" class="header__menu-link">Контакты</a> </li>
                 </ul>
@@ -28,14 +28,14 @@
                 <li class="header__contacts-item">
                     <a href="mailto:info@devstudio.com" class="header__contacts-link">
                         <svg class="header__contacts-icon">
-                            <use href="/goit-markup-hw-04/images/svg/svg_header.svg#icon-envelope"></use>
+                            <use href="./images/svg/svg_header.svg#icon-envelope"></use>
                         </svg>info@devstudio.com
                     </a>         
                 </li>
                 <li class="header__contacts-item">
                     <a href="tel:+380961111111" class="header__contacts-link">
                         <svg class="header__contacts-icon">
-                            <use href="/goit-markup-hw-04/images/svg/svg_header.svg#icon-Vector"></use>
+                            <use href="./images/svg/svg_header.svg#icon-Vector"></use>
                         </svg>+38 096 111 11 11
                     </a>
                 </li>
@@ -48,49 +48,49 @@
             <div class="container">
                 <h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
                 <button class="button" data-modal-open>Заказать услугу</button>
-                <div class="hero__backdrop is-hidden" data-modal>               
-                    <div class="hero__modal">
-                        <div class="hero__modal-close" data-modal-close></div>
+                <div class="modal__backdrop is-hidden" data-modal>               
+                    <div class="modal">
+                        <div class="modal__close" data-modal-close></div>
 
 
-                        <form class="hero__form" action="">
-                            <h2 class="hero__form-header">Оставьте свои данные, мы вам перезвоним</h2>
+                        <form class="modal__form" action="">
+                            <h2 class="modal__header">Оставьте свои данные, мы вам перезвоним</h2>
                             
-                            <label class="hero__form-label" for="hero-form-name">Имя</label>
-                            <div class="hero__input-box">                          
-                                <input class="hero__form-input" type="text" id="hero-form-name">
-                                <svg class="hero-form-input-icon">
+                            <label class="modal__label" for="form-name">Имя</label>
+                            <div class="modal__input-box">                          
+                                <input class="modal__form-input" type="text" id="form-name">
+                                <svg class="modal__input-icon">
                                     <use href="./images/svg/svg_model_icon.svg#icon-Vector-4"></use>
                                 </svg>
                              </div>  
-                            <label class="hero-form-label" for="hero-form-tel">Телефон</label>
-                            <div class="hero-input-box">                          
-                                <input class="hero-form-input" type="text" id="hero-form-tel">
-                                <svg class="hero-form-input-icon">
+                            <label class="modal__label" for="form-tel">Телефон</label>
+                            <div class="modal__input-box">                          
+                                <input class="modal__form-input" type="text" id="form-tel">
+                                <svg class="modal__input-icon">
                                     <use href="./images/svg/svg_model_icon.svg#icon-Vector-2"></use>
                                 </svg>
                              </div>  
-                            <label class="hero-form-label" for="hero-form-mail">Почта</label>
-                            <div class="hero-input-box">                          
-                                <input class="hero-form-input" type="text" id="hero-form-mail">
-                                <svg class="hero-form-input-icon">
+                            <label class="modal__label" for="form-mail">Почта</label>
+                            <div class="modal__input-box">                          
+                                <input class="modal__form-input" type="text" id="form-mail">
+                                <svg class="modal__input-icon">
                                     <use href="./images/svg/svg_model_icon.svg#icon-Vector-3"></use>
                                 </svg>
                              </div>
-                            <label class="hero-form-label" for="hero-form-comment">Комментарий</label>
-                            <textarea class="textarea" name="" id="hero-form-comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                            <label class="modal__label" for="form-comment">Комментарий</label>
+                            <textarea class="modal__textarea" name="" id="form-comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
 
-                            <label class="hero-form-checkbox-label" for="hero-checkbox">
-                                <input class="hero-form-checkbox-item" type="checkbox" name="checkbox" id="hero-checkbox">
-                                <span class="hero-form-checkbox-checkmark">
-                                    <svg class="hero-form-checkbox-icon">
+                            <label class="modal__checkbox-label" for="form-checkbox">
+                                <input class="modal__checkbox-item" type="checkbox" name="checkbox" id="form-checkbox">
+                                <span class="modal__checkbox-checkmark">
+                                    <svg class="modal__checkbox-icon">
                                         <use href="./images/svg/svg_model_icon.svg#icon-Vector-1"></use>
                                     </svg>
                                 </span>                       
-                                Соглашаюсь с рассылкой и принимаю <a class="hero-form-checkbox-link" href="#">Условия договора</a>
+                                Соглашаюсь с рассылкой и принимаю <a class="modal__checkbox-link" href="#">Условия договора</a>
                             </label>
                             
-                            <button class="hero-form-btn">Отправить</button>
+                            <button class="modal__form-btn">Отправить</button>
                             
                             
                         </form>

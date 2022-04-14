@@ -189,10 +189,10 @@
     z-index: 100;
 }  */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
-}
+} */
 /* 
  .modal {
     display: flex;
@@ -270,25 +270,11 @@
     position: relative;
     margin-bottom: 10px;  
  } */
-
- .hero-input-box:focus-within .hero-form-input-icon {
+ /* .modal_input-box:focus-within .modal_input-icon {
     fill: #2196F3;
- }
+ } */
 
- .hero-form-input:focus-within {
-    border-color: #2196F3;
- }
- .hero-form-input-icon {
-    position: absolute;
-    top: 14px;
-    left: 15px;
-    max-width: 15px;
-    height: 12px;
- }
-
-
-
- .hero-form-input {
+ /* .modal__form-input {
     height: 40px;
     width: 100%;  
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -296,9 +282,26 @@
     border-radius: 4px;
     padding: 12px 12px 12px 42px;
     outline: none;
- } 
+ }  */
 
- .textarea{
+
+
+ /* .modal__form-input:focus-within {
+    border-color: #2196F3;
+ } */
+ /* .modal__input-icon {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    max-width: 15px;
+    height: 12px;
+ } */
+
+
+
+
+
+ /* .modal__textarea{
     resize: none;
     max-height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -307,21 +310,19 @@
     margin-bottom: 20px;
     outline: none;
     padding: 12px 16px;
- }
- .textarea:focus-within {
+ } */
+ /* .modal__textarea:focus-within {
      border-color: #2196F3;
- }
- .textarea::placeholder {
+ } */
+ /* .modal__textarea::placeholder {
     font-family: 'Roboto', sans-serif;
+    color: gray;
+    opacity: 50%;
      
-     color: gray;
-     opacity: 50%;
-     
- }
+ } */
 
- .hero-form-checkbox-label {
-     position: relative;
-    font-family: 'Roboto', sans-serif;
+ /* .modal__checkbox-label {
+    position: relative;
     font-size: 14px;
     letter-spacing: 0.03em;
     margin-bottom: 30px;
@@ -329,32 +330,32 @@
     padding-left: 15px;
     color: #757575;
     user-select: none;
- }
+ } */
 
- .hero-form-checkbox-checkmark {
+ /* .modal__checkbox-checkmark {
      position: absolute;
      width: 16px;
      height: 16px;
      left: 0px;
      border: 2px solid black;
      border-radius: 2px;
- }
- .hero-form-checkbox-item:checked~
-.hero-form-checkbox-checkmark {
+ } */
+ /* .modal__checkbox-item:checked~
+.modal__checkbox-checkmark {
       background-color: blue;
       border: 2px solid rgb(55, 0, 255);
     }
- 
- .hero-form-checkbox-item {
+  */
+ /* .modal__checkbox-item {
      position: absolute;
      width: 0px;
      height: 0px;
     z-index: -1;
 
- }
+ } */
 
 
- .hero-form-checkbox-icon { 
+ /* .modal__checkbox-icon { 
     position: absolute;
     width: 11px;
     height: 8px;
@@ -362,26 +363,25 @@
     top: 2px;
     fill: transparent;
     
- }
+ } */
 
- .hero-form-checkbox-item:checked~
+ /* .modal__checkbox-item:checked~
 .hero-form-checkbox-checkmark>.hero-form-checkbox-icon {
     fill: white;
-}
+} */
 
 
- .hero-form-checkbox-link {
+ /* .modal__checkbox-link {
      color: #2196F3;
      text-decoration: underline;
- }
+ } */
 
- .hero-form-btn-place {
+ /* .modal__btn-place {
     display: flex;
     justify-content: center;
- }
+ } */
 
- .hero-form-btn {
-    font-family: 'Roboto', sans-serif;
+ /* .modal__form-btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -394,7 +394,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none; 
- }
+ } */
 
 
 .header-features {
@@ -450,14 +450,37 @@
 
 /* __SPECIAL COMPANY */
 
+
+.special {
+    padding: 94px 0;
+}
+
+@media (max-width: 1200px) {
+    .special{
+    padding: 60px 15px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .special{
+        padding: 94px 0;
+        }
+}
+
 .special-list {
     display: flex;
     justify-content: space-between;
 }
 
-.special {
-    padding: 94px 0;
+.special-icon {
+    width: 70px;
+    height: 70px;
+    padding: 25px 100px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
+
 
 
 /* __BUSINESS */
@@ -828,14 +851,7 @@ color: #757575;
 
 
 /* Special */
-.special-icon {
-    width: 70px;
-    height: 70px;
-    padding: 25px 100px;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-}
+
 /* Our-team */
 .our-team {
     display: flex;
